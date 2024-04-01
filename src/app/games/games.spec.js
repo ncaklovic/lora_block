@@ -5,7 +5,7 @@
  * automatically.
  */
 describe( 'home section', function() {
-  beforeEach( module( 'ngScorekeeper.games' ) );
+  beforeEach( module( 'ngLoraBlock.games' ) );
 
   it( 'should have a dummy test', inject( function() {
     expect( true ).toBeTruthy();

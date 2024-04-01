@@ -1,10 +1,10 @@
 {
-  "name": "scorekeeper",
-  "short_name": "scorekeeper",
+  "name": "lora-block",
+  "short_name": "lora-block",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "An app for tracking scores in card or board games",
+  "description": "An app for tracking scores in Lora card game",
   "icons": [{
     "src": "assets/apple-touch-icon.png",
     "sizes": "48x48",

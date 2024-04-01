@@ -1,12 +1,12 @@
 {
-  "author": "Andreas Flack",
-  "name": "scorekeeper",
-  "version": "0.0.11",
-  "homepage": "https://flack.github.com/scorekeeper",
-  "bugs": "https://github.com/flack/scorekeeper/issues",
+  "author": "Nenad Čaklović",
+  "name": "lora-block",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ncaklovic/lora_block",
+  "bugs": "https://github.com/ncaklovic/lora_block/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:flack/scorekeeper.git"
+    "url": "git@github.com:ncaklovic/lora_block.git"
   },
   "dependencies": {
     "@bower_components/angular": "angular/bower-angular#^1.6",

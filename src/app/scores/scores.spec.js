@@ -1,5 +1,5 @@
 describe( 'scores section', function() {
-    beforeEach( module( 'ngScorekeeper.scores' ) );
+    beforeEach(module( 'ngLoraBlock.scores' ) );
 
     beforeEach(inject(function($controller) {
         scope = {};

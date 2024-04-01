@@ -1,4 +1,4 @@
-angular.module( 'ngScorekeeper.players', [
+angular.module( 'ngLoraBlock.players', [
     'ui.router',
     'ui.sortable',
     'ngStorage'

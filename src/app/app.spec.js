@@ -2,7 +2,7 @@ describe( 'AppCtrl', function() {
   describe( 'isCurrentUrl', function() {
     var AppCtrl, $location, $scope, $transitions;
 
-    beforeEach( module( 'ngScorekeeper' ) );
+    beforeEach( module( 'ngLoraBlock' ) );
 
     beforeEach( inject( function( $controller, _$location_, $rootScope, _$transitions_ ) {
       $location = _$location_;

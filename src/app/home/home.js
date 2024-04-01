@@ -1,4 +1,4 @@
-angular.module( 'ngScorekeeper.home', [
+angular.module( 'ngLoraBlock.home', [
   'ui.router'
 ])
 

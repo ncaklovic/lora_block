@@ -1,10 +1,10 @@
-angular.module( 'ngScorekeeper', [
+angular.module( 'ngLoraBlock', [
     'templates-app',
-    'ngScorekeeper.home',
-    'ngScorekeeper.players',
-    'ngScorekeeper.scores',
-    'ngScorekeeper.games',
-    'ngScorekeeper.animations',
+    'ngLoraBlock.home',
+    'ngLoraBlock.players',
+    'ngLoraBlock.scores',
+    'ngLoraBlock.games',
+    'ngLoraBlock.animations',
     'ui.bootstrap',
     'ui.router'
 ])
@@ -19,9 +19,9 @@ angular.module( 'ngScorekeeper', [
 .controller( 'AppCtrl', function AppCtrl ( $scope, $location, $transitions ) {
       $transitions.onSuccess({}, function($transition) {
           if ($transition.to().name !== 'home') {
-              $scope.pageTitle = $transition.to().data.pageTitle + ' | scorekeeper';
+              $scope.pageTitle = $transition.to().data.pageTitle + ' | lora-block';
           } else {
-              $scope.pageTitle = 'scorekeeper';
+              $scope.pageTitle = 'lora-block';
           }
       });
 });

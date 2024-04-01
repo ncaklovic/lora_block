@@ -1,4 +1,4 @@
-angular.module('ngScorekeeper.animations', [
+angular.module('ngLoraBlock.animations', [
     'ngAnimate'
 ])
 

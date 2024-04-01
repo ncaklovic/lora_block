@@ -1,4 +1,4 @@
-angular.module( 'ngScorekeeper.scores', [
+angular.module( 'ngLoraBlock.scores', [
     'ui.router',
     'angularMoment',
     'ngStorage'
